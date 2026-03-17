@@ -12,6 +12,7 @@ import Blogs from './pages/home/blogs/Blogs.jsx'
 import Register from './components/Register.jsx'
 import Login from './components/Login.jsx'
 import AuthProvider from './context/AuthContext.jsx'
+import PrivateRoutes from './routes/PrivateRoute.jsx';
 import Dashboard from './pages/home/dashboard/Dashboard.jsx'
 createRoot(document.getElementById('root')).render(
   <AuthProvider>
